@@ -1,1 +1,1 @@
-# MaerskUICodingAssesmentBijuK
+# UICodingAssesmentBijuK
