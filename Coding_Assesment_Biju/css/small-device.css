@@ -1,0 +1,88 @@
+body{
+    background-color: #000000;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+}
+.header h4{
+    background-color: #333333;
+    color: #ffffff;
+}
+.cards-container{
+    display: block;
+    border: none;
+}
+.button-container{
+    width:100%;
+}
+.btn{
+    display: inline-block;
+    width:100px;
+    margin-right: 10px;
+}
+.cards-wrapper{
+    width:100%;
+}
+.card{
+    width:100%;
+    clear: both;
+}
+
+.card .value {
+    font-size: 16px;
+    height: 55px;
+    margin: 0 10px 5px 10px;
+    color: #333333;
+}
+.cards-small {
+    position: relative;
+    background-color: #efefef;
+}
+
+.cards-small:after {
+    content:'\A';
+    position:absolute;
+    top:0; bottom:0;
+    left:0; 
+    width:4%;
+}
+.card1:after{
+    background-color: #6f98a8;
+}
+
+.card2:after{
+    background-color: #2b8ead;
+}
+
+.card3:after{
+    background-color: #2f454e; 
+}
+
+.card4:after{
+    background-color: #2b8ead; 
+}
+
+.card5:after{
+    background-color: #2f454e;
+}
+
+.card6:after{
+    background-color: #bfbfbf; 
+}
+
+.card7:after{
+    background-color: #bfbfbf;
+}
+
+.card8:after{
+    background-color: #6f98a8;
+}
+
+.card9:after{
+    background-color: #2f454e;   
+}
+.footer{
+    padding: 0 0 1px 0;
+}
